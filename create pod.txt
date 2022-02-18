@@ -1,0 +1,7 @@
+#Create pod using imparate command
+#kubectl run nginx --image=nginx
+
+#create pod using deplarative approach[Deployment]
+#kubectl create deploy nginx --image=nginx
+#kubectl get rs [Get replica set]
+#
