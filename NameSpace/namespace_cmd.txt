@@ -1,0 +1,3 @@
+#kubectl get ns   #get namespace
+#kubectl create ns dev #create namespace
+#kubectl config set-context --current --namespace=dev  = Change namespace
