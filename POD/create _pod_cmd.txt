@@ -4,3 +4,4 @@
 #create pod using deplarative approach
 #kubectl create deploy nginx --image=nginx
 #kubectl run nginx-deploy --image=nginx -o yaml --dry-run=client >nginx.yaml  [Create Deployment using declartive approach]
+# kubectl exec -it nginx-mulit-pod -c redis -- /bin/bash [exec to container]
