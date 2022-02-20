@@ -5,3 +5,9 @@
 #kubectl create deploy nginx --image=nginx
 #kubectl run nginx-deploy --image=nginx -o yaml --dry-run=client >nginx.yaml  [Create Deployment using declartive approach]
 # kubectl exec -it nginx-mulit-pod -c redis -- /bin/bash [exec to container]
+
+----Loging ----
+
+#kubectl describe pods nginx-deploy-5c54dccd6c-fnx4h |grep -i container   [Find container name]
+#kubectl logs nginx-deploy-5c54dccd6c-fnx4h -c nginx [Check container log]
+#kubectl logs nginx-deploy-5c54dccd6c-fnx4h [Check pod log]
