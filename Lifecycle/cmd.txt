@@ -1,0 +1,6 @@
+#kubectl scale deploy nginx05 --replicas=2 --record
+#kubectl rollout history deploy/nginx05
+#kubectl rollout status deploy/nginx05
+#kubectl rollout undo deploy/nginx05
+
+#Two type: Rolling update and recreate
