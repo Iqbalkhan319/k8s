@@ -1,0 +1,3 @@
+#kubectl drain node2 --ignore-daemonsets   [pod evicting and cordon]
+# kubectl drain node1 --ignore-daemonsets --delete-emptydir-data --force
+#kubectl uncordon node1
